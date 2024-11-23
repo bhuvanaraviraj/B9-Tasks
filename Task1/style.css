@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #fefefe;
+    color: #333;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #fff;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin-left: 20px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.auth-buttons a {
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.auth-buttons .login {
+    color: #333;
+}
+
+.auth-buttons .signup {
+    color: #fff;
+    background-color: #ff5a00;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    text-align: left;
+}
+
+.hero h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #333;
+    font-weight: bold;
+}
+
+.hero .highlight {
+    color: #ff5a00;
+}
+
+.hero p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.hero .content p {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #666;
+}
+
+.discover-btn {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 25px;
+    color: #ff5a00;
+    border: 2px solid #ff5a00;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.discover-btn:hover {
+    background-color: #ff5a00;
+    color: #fff;
+}
+
+.hero-image {
+    position: relative;
+    margin-left: 50px;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.hero-image .badge {
+    position: absolute;
+    background-color: #fff;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    
+}
+
+.hero-image .best-tour {
+    top: 100px;
+    left: 50px;
+}
+
+.hero-image .reviews {
+    bottom: 100px;
+    left: 50px;
+}
+
+.hero-image .explore {
+    top: 210px;
+    right: 50px;
+}
+
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.input-group {
+    margin-right: 30px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    display: inline;
+}
+
+.input-group .arrow {
+    color: #ff5a00;
+    font-size: 14px;
+    margin-left: 0px;
+    position:absolute;
+    
+    
+}
+
+.input-group .placeholder {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.explore-btn {
+    padding: 12px 25px;
+    background-color: #ff5a00;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: box-shadow 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    .search-bar {
+        flex-direction: column;
+    }
+    .input-group {
+        margin: 10px 0;
+    }
+}
