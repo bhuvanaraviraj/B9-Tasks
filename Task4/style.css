@@ -1,0 +1,128 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    width: 100%;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  header .totals {
+    margin-top: 10px;
+  }
+  
+  header .totals p {
+    margin: 5px 0;
+  }
+  
+  main {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .entry-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  .entry-form input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .entry-form .entry-type {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .entry-form button {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .entry-form button:hover {
+    background-color: #218838;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .filters label {
+    font-size: 1rem;
+  }
+  
+  .entries-list {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 15px;
+  }
+  
+  .entries-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .entries-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .entries-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .entries-list li span {
+    font-size: 1rem;
+  }
+  
+  .entries-list li button {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .entries-list li button:hover {
+    background-color: #c82333;
+  }
+  
